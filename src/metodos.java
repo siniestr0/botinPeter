@@ -21,14 +21,30 @@ public void setJugador(String jugador) {
 public void calidadCofre() {
 /*
 numeros aleatorios entre 1 y 5 que corresponden a :
-1: blanco
-2: verde
-3: azul
-4: morado
-5: naranja
+1: blanco / comun
+2: verde / raro
+3: azul / magico
+4: morado / epico
+5: naranja / legendario
 */
-   System.out.println(int numero = (int)(Math.random()*5+1);); 
-   
+   System.out.println(int numero = (int)(Math.random()*5+1);
+   if(numero == 1){
+   System.out.println("El cofre es común");
+
+   }else if(numero == 2){
+       System.out.println("El cofre es raro");
+
+   }else if(numero == 3){
+       System.out.println("El cofre es magico");
+
+   }else if (numero == 4){
+        System.out.println("El cofre es epico !!");
+
+   }else if(numero == 5){
+       System.out.println("Increíble !!! Has conseguido un cofre LEGEN .... wait for it ....  DARY !!!!");
+
+    }
+   }
 }
 
 public void item() {
@@ -43,7 +59,34 @@ public void item() {
     7: Armadura
     8: Botas
     */
-       System.out.println(int numero = (int)(Math.random()*8+1);); 
+       System.out.println(int numero = (int)(Math.random()*8+1); 
+
+       if(numero == 1){
+        System.out.println("");
+     
+        }else if(numero == 2){
+            System.out.println("");
+     
+        }else if(numero == 3){
+            System.out.println("");
+     
+        }else if (numero == 4){
+             System.out.println("");
+     
+        }else if(numero == 5){
+            System.out.println("");
+
+        }else if(numero == 6){
+            System.out.println("");
+
+        }else if(numero == 7){
+            System.out.println("");
+
+        }else if(numero == 8){
+            System.out.println("");
+
+        }
     }
+}
 
 }
