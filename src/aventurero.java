@@ -1,20 +1,27 @@
-public class metodos {
+public class aventurero {
 
-private String jugador;
+private String nombre;
+int numero =0;
 
-public metodos (String jugador);
-this.jugador = jugador;
+public aventurero(String nombre) {
+    this.nombre = nombre;
+}
 
-public metodos ();
-this.jugador = ("");
+public void jugador (String nombre){
+this.nombre = nombre;
+}
 
+public void jugador (){
+this.nombre = ("");
+
+}
 public String getJugador() {
-    return jugador;
+    return nombre;
 
 }
 
-public void setJugador(String jugador) {
-    this.jugador = jugador;
+public void setJugador(String nombre) {
+    this.nombre = nombre;
 
 }
 
@@ -27,7 +34,7 @@ numeros aleatorios entre 1 y 5 que corresponden a :
 4: morado / epico
 5: naranja / legendario
 */
-   System.out.println(int numero = (int)(Math.random()*5+1);
+   System.out.println (numero = (int)(Math.random()*5+1));
    if(numero == 1){
         System.out.println("El cofre es común");
 
@@ -45,7 +52,7 @@ numeros aleatorios entre 1 y 5 que corresponden a :
 
     }
     }
-}
+
 
 public void item() {
     /*
@@ -59,7 +66,7 @@ public void item() {
     7: Armadura
     8: Botas
     */
-       System.out.println(int numero = (int)(Math.random()*8+1); 
+       System.out.println (numero = (int)(Math.random()*8+1)); 
 
        if(numero == 1){
             System.out.println("Has conseguido un arma");
@@ -95,4 +102,3 @@ si el cofre que ha sacado es naranja que ponga que item ha sacado, como en cada 
 Si eso lo consigues, te lo ganas del todo
 */
 
-}
