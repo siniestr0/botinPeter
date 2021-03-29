@@ -10,14 +10,10 @@ public class Principal {
     aventurero j1 = new aventurero ("Elena");
 
 System.out.println("Bienvenidos al botín de ElenDer Dragon's");
-//System.out.println("Su botín es el siguiente");
-
-//pedimos el nombre del jugador
 
 System.out.println("Bienvenido aventrurero " + j1.getJugador() + " !");
 System.out.println("Este es el botin que has sacado");
 j1.botin();
-
 
 teclado.close();
     }
