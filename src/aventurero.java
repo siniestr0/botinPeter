@@ -1,7 +1,8 @@
 public class aventurero {
 
 private String nombre;
-int numero =0;
+int calidad =0;
+int item = 0;
 
 public aventurero(String nombre) {
     this.nombre = nombre;
@@ -24,76 +25,159 @@ public void setJugador(String nombre) {
     this.nombre = nombre;
 
 }
+//locura letras y numeros
 
-public void calidadCofre() {
 /*
-numeros aleatorios entre 1 y 5 que corresponden a :
-1: blanco / comun
-2: verde / raro
-3: azul / magico
-4: morado / epico
-5: naranja / legendario
+vamos a crear un metodo juntando los dos metodos de calidad y objeto
 */
-   System.out.println (numero = (int)(Math.random()*5+1));
-   if(numero == 1){
-        System.out.println("El cofre es común");
 
-   }else if(numero == 2){
-       System.out.println("El cofre es raro");
+public void botin(){
 
-   }else if(numero == 3){
-       System.out.println("El cofre es magico");
+System.out.println (calidad = (int)(Math.random()*5+1));
+System.out.println (item = (int)(Math.random()*8+1));
 
-   }else if (numero == 4){
-        System.out.println("El cofre es epico !!");
+    if(calidad == 1 && item == 1){
+        System.out.println("El cofre es común y has conseguido un arma");
 
-   }else if(numero == 5){
-       System.out.println("Increíble !!! Has conseguido un cofre LEGEN .... wait for it ....  DARY !!!!");
+    }else if(calidad == 2 && item == 1){
+    System.out.println("El cofre es raro y has conseguido un arma");
+
+    }else if(calidad == 3 && item == 1){
+    System.out.println("El cofre es magico y has conseguido un arma");
+
+    }else if (calidad == 4 && item == 1){
+        System.out.println("El cofre es epico y has conseguido un arma !!");
+
+    }else if(calidad == 5 && item == 1 ) {
+    System.out.println("Increíble !!! Has conseguido un cofre LEGEN .... wait for it ....  DARY y has conseguido un arma !!!!");
 
     }
+
+    if(calidad == 1 && item == 2){
+        System.out.println("El cofre es común y has conseguido un escudo");
+
+    }else if(calidad == 2 && item == 2){
+    System.out.println("El cofre es raro y has conseguido un escudo");
+
+    }else if(calidad == 3 && item == 2){
+    System.out.println("El cofre es magico y has conseguido un escudo");
+
+    }else if (calidad == 4 && item == 2){
+        System.out.println("El cofre es epico y has conseguido un escudo !!");
+
+    }else if(calidad == 5 && item == 2) {
+    System.out.println("Increíble !!! Has conseguido un cofre LEGEN .... wait for it ....  DARY y has conseguido un escudo !!!!");
+
+    }
+
+    if(calidad == 1 && item == 3){
+        System.out.println("El cofre es común y has conseguido unos guantes");
+
+    }else if(calidad == 2 && item == 3){
+    System.out.println("El cofre es raro y has conseguido unos guantes");
+
+    }else if(calidad == 3 && item == 3){
+    System.out.println("El cofre es magico y has conseguido unos guantes");
+
+    }else if (calidad == 4 && item == 3){
+        System.out.println("El cofre es epico y has conseguido unos guantes !!");
+
+    }else if(calidad == 5 && item == 3) {
+    System.out.println("Increíble !!! Has conseguido un cofre LEGEN .... wait for it ....  DARY y has conseguido unos guantes !!!!");
+
     }
 
 
-public void item() {
-    /*
-    numeros aleatorios entre 1 y 8 que corresponden a :
-    1: Arma
-    2: Escudo
-    3: Guantes
-    4: Cinturon
-    5: Pantalones
-    6: Casco
-    7: Armadura
-    8: Botas
-    */
-       System.out.println (numero = (int)(Math.random()*8+1)); 
+    if(calidad == 1 && item == 4){
+        System.out.println("El cofre es común y has conseguido un cinturon");
 
-       if(numero == 1){
-            System.out.println("Has conseguido un arma");
-     
-        }else if(numero == 2){
-            System.out.println("Has conseguido un escudo");
-     
-        }else if(numero == 3){
-            System.out.println("Has conseguido unos guantes");
-     
-        }else if (numero == 4){
-             System.out.println("Has conseguido un cinturon");
-     
-        }else if(numero == 5){
-            System.out.println("Has conseguido unos pantalones");
+    }else if(calidad == 2 && item == 4){
+    System.out.println("El cofre es raro y has conseguido un cinturon");
 
-        }else if(numero == 6){
-            System.out.println("Has conseguido un casco");
+    }else if(calidad == 3 && item == 4){
+    System.out.println("El cofre es magico y has conseguido un cinturon");
 
-        }else if(numero == 7){
-            System.out.println("Has conseguido una armadura");
+    }else if (calidad == 4 && item == 4){
+        System.out.println("El cofre es epico y has conseguido un cinturon !!");
 
-        }else if(numero == 8){
-            System.out.println("Has conseguido unas botas");
+    }else if(calidad == 5 && item == 4) {
+    System.out.println("Increíble !!! Has conseguido un cofre LEGEN .... wait for it ....  DARY y has conseguido un cinturon !!!!");
 
-        }
     }
+
+
+    if(calidad == 1 && item == 5){
+        System.out.println("El cofre es común y has conseguido unos pantalones");
+
+    }else if(calidad == 2 && item == 5){
+    System.out.println("El cofre es raro y has conseguido unos pantalones");
+
+    }else if(calidad == 3 && item == 5){
+    System.out.println("El cofre es magico y has conseguido unos pantalones");
+
+    }else if (calidad == 4 && item == 5){
+        System.out.println("El cofre es epico y has conseguido unos pantalones !!");
+
+    }else if(calidad == 5 && item == 5) {
+    System.out.println("Increíble !!! Has conseguido un cofre LEGEN .... wait for it ....  DARY y has conseguido unos pantalones !!!!");
+
+    }
+
+
+    if(calidad == 1 && item == 6){
+        System.out.println("El cofre es común y has conseguido un casco");
+
+    }else if(calidad == 2 && item == 6){
+    System.out.println("El cofre es raro y has conseguido un casco");
+
+    }else if(calidad == 3 && item == 6){
+    System.out.println("El cofre es magico y has conseguido un casco");
+
+    }else if (calidad == 4 && item == 6){
+        System.out.println("El cofre es epico y has conseguido un casco !!");
+
+    }else if(calidad == 5 && item == 6) {
+    System.out.println("Increíble !!! Has conseguido un cofre LEGEN .... wait for it ....  DARY y has conseguido un casco !!!!");
+
+    }
+
+
+    if(calidad == 1 && item == 7){
+        System.out.println("El cofre es común y has conseguido una armadura");
+
+    }else if(calidad == 2 && item == 7){
+    System.out.println("El cofre es raro y has conseguido una armadura");
+
+    }else if(calidad == 3 && item == 7){
+    System.out.println("El cofre es magico y has conseguido una armadura");
+
+    }else if (calidad == 4 && item == 7){
+        System.out.println("El cofre es epico y has conseguido una armadura !!");
+
+    }else if(calidad == 5 && item == 7) {
+    System.out.println("Increíble !!! Has conseguido un cofre LEGEN .... wait for it ....  DARY y has conseguido una armadura !!!!");
+
+    }
+
+
+    if(calidad == 1 && item == 8){
+        System.out.println("El cofre es común y has conseguido unas botas");
+
+    }else if(calidad == 2 && item == 8){
+    System.out.println("El cofre es raro y has conseguido unas botas");
+
+    }else if(calidad == 3 && item == 8){
+    System.out.println("El cofre es magico y has conseguido unas botas");
+
+    }else if (calidad == 4 && item == 8){
+        System.out.println("El cofre es epico y has conseguido unas botas !!");
+
+    }else if(calidad == 5 && item == 8) {
+    System.out.println("Increíble !!! Has conseguido un cofre LEGEN .... wait for it ....  DARY y has conseguido unas botas !!!!");
+
+    }
+}
+
 }
 
 /*

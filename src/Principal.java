@@ -16,10 +16,8 @@ System.out.println("Bienvenidos al botín de ElenDer Dragon's");
 
 System.out.println("Bienvenido aventrurero " + j1.getJugador() + " !");
 System.out.println("Este es el botin que has sacado");
-j1.calidadCofre();
+j1.botin();
 
-System.out.println("El contenido del cofres es ... ");
-j1.item();
 
 teclado.close();
     }
